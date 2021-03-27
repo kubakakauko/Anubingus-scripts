@@ -1,0 +1,75 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (kuagmire.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Source.cpp
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Weapons.h(13,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(173,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(209,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(210,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(223,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(225,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(227,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(229,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(231,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(237,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(386,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(388,149): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(388,242): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(393,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(395,151): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(395,250): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(400,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(402,139): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(402,235): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(407,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(409,136): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(409,230): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(414,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(416,133): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(416,226): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(421,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(423,136): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(423,230): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(428,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(430,139): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(430,234): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(434,139): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(434,235): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(2468,23): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(2479): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(2479): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(2459): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(2459): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(64): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Source.cpp(64): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  norecoil.vcxproj -> C:\Users\kuba-bootable\Documents\GitHub\Scripts\Debug\anubingus.exe
