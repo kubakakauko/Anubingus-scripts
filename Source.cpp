@@ -12,6 +12,7 @@
 //Includes for Dialog
 #include <shobjidl.h> 
 #include <sstream>
+#include <fstream>
 
 #define FG_RED "\033[31m"
 #define FG_PURPLE "\033[35m"
@@ -23,10 +24,11 @@ int currentwep = 0;
 int scope = 0;
 int barrel = 0;
 int randomizer = 0;
-int playerfov = 90;
-float playersens = 1;
+float playerfov = 90.0f;
+float playersens = 1.0f;
 bool enabled = true;
 std::string configPath = "C:/Users/kuba-bootable/Desktop/Rust/Rust2/Rust/cfg/client.cfg";
+std::string testing;
 
 //Opens the file directory and sets configPath to user selection.
 int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine, int nCmdShow)
@@ -36,7 +38,6 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine, int nCmdShow
 	if (SUCCEEDED(hr))
 	{
 		IFileOpenDialog* pFileOpen;
-
 		// Create the FileOpenDialog object.
 		hr = CoCreateInstance(CLSID_FileOpenDialog, NULL, CLSCTX_ALL,
 			IID_IFileOpenDialog, reinterpret_cast<void**>(&pFileOpen));
@@ -65,7 +66,6 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine, int nCmdShow
 						//Setting the string.
 						configPath.assign(strP);
 
-
 						CoTaskMemFree(pszFilePath);
 					}
 					pItem->Release();
@@ -78,10 +78,54 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine, int nCmdShow
 	return 0;
 }
 
+std::string RemoveChars(const std::string& source, const std::string& chars) {
+	std::string result = "";
+	for (unsigned int i = 0; i < source.length(); i++) {
+		bool foundany = false;
+		for (unsigned int j = 0; j < chars.length() && !foundany; j++) {
+			foundany = (source[i] == chars[j]);
+		}
+		if (!foundany) {
+			result += source[i];
+		}
+	}
+	return result;
+}
+
+void ReadSetting() {
+
+	std::ifstream infline(configPath);
+	std::string fovString;
+	std::string sensString;
+
+	if (infline.is_open()) {
+		for (int i = 0; i < 70; i++)
+		{
+			std::getline(infline, fovString);
+			//std::getline(infline, testing);
+		}
+		std::string const s = fovString;
+		std::string::size_type const n = s.find('"');
+		fovString = RemoveChars(s.substr(n), "\"");
+
+		for(int i = 0; i < 22; i++){
+			std::getline(infline, sensString);
+		}
+		std::string const st = sensString;
+		std::string::size_type const x = st.find('"');
+		sensString = RemoveChars(st.substr(x), "\"");
+
+		playerfov = std::stof(fovString);
+		playersens = std::stof(sensString);
+	}
+	else {
+		wWinMain(NULL, NULL, NULL, 0);
+		ReadSetting();
+	}
+}
 
 void DrawGui()
 {
-	wWinMain(NULL, NULL, NULL, 0);
 	system("cls");
 	system("color 3");
 	_setmode(_fileno(stdout), 0x20000);
@@ -163,6 +207,11 @@ void DrawGui()
 	std::cout << (enabled ? FG_GREEN "Enabled" : FG_RED "Enabled");
 	std::cout << std::endl;
 	std::cout << std::endl;
+
+	std::cout << "FOV: " << playerfov << std::endl;
+	std::cout << "SENS: " << playersens << std::endl;
+	std::cout << FG_RED << testing << std::endl;
+
 	std::cout << FG_CYAN << "Update Logs (v1.2): ";
 	std::cout << std::endl;
 	std::cout << FG_CYAN << "Improved application performance.";
@@ -241,8 +290,11 @@ float tofovandsens(float sens, int fov, float val)
 
 int main()
 {
-	int count = 0;
+	//Reading setting of the client once
+	ReadSetting();
 
+
+	int count = 0;
 	SetConsoleTitle(L"!ANUBINGUS! | ANUB!NGUS#8780");
 	HANDLE handle = GetStdHandle(STD_OUTPUT_HANDLE);
 	CONSOLE_SCREEN_BUFFER_INFO info;
@@ -255,7 +307,7 @@ int main()
 	SetConsoleScreenBufferSize(handle, new_size);
 
 	HWND hwnd = GetConsoleWindow();
-	if (hwnd != NULL) { MoveWindow(hwnd, 0, 0, 320, 220, FALSE); }
+	if (hwnd != NULL) { MoveWindow(hwnd, 0, 0, 420, 320, FALSE); }
 
 	HANDLE out = GetStdHandle(STD_OUTPUT_HANDLE);
 
