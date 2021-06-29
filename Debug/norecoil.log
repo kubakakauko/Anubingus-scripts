@@ -1,87 +1,87 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (kuagmire.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(519,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (kuagmire.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Source.cpp
 C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Weapons.h(13,28): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(223,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(222,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(258,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(259,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(260,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(273,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(275,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(277,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(279,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(281,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(287,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(439,16): warning C4018: '<': signed/unsigned mismatch
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(441,149): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(441,108): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(441,242): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(441,201): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(272,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(274,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(276,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(278,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(280,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(286,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(446,16): warning C4018: '<': signed/unsigned mismatch
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(448,151): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(448,104): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(448,250): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(448,203): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(448,149): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(448,108): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(448,242): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(448,201): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(453,16): warning C4018: '<': signed/unsigned mismatch
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(455,139): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(455,96): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(455,235): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(455,192): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(455,151): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(455,104): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(455,250): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(455,203): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(460,16): warning C4018: '<': signed/unsigned mismatch
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(462,136): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(462,94): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(462,230): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(462,188): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(462,139): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(462,96): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(462,235): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(462,192): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(467,16): warning C4018: '<': signed/unsigned mismatch
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(469,133): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(469,92): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(469,226): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(469,185): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(469,136): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(469,94): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(469,230): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(469,188): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(474,16): warning C4018: '<': signed/unsigned mismatch
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(476,136): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(476,94): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(476,230): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(476,188): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(476,133): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(476,92): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(476,226): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(476,185): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(481,16): warning C4018: '<': signed/unsigned mismatch
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(483,139): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(483,96): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(483,234): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(483,191): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(487,139): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(487,96): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(487,235): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(487,192): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(2468,23): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(483,136): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(483,94): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(483,230): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(483,188): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(488,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(490,139): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(490,96): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(490,234): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(490,191): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(494,139): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(494,96): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(494,235): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(494,192): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstring(2468,23): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
           with
           [
               _Elem=char
           ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(2479): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstring(2479): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
           with
           [
               _Iter=wchar_t *
           ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(2479): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstring(2479): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
           with
           [
               _Iter=wchar_t *
           ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(2459): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstring(2459): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
           with
           [
               _Iter=wchar_t *
           ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xstring(2459): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xstring(2459): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
           with
           [
               _Iter=wchar_t *
           ]
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(65): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(64): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
           with
           [
               _Elem=wchar_t,
               _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
               _Alloc=std::allocator<char>
           ]
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(65): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Source.cpp(64): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
           with
           [
               _Elem=wchar_t,

@@ -3,4 +3,3 @@ C:\Users\kuba-bootable\Documents\GitHub\Kuagmire-Scripts\Debug\kuagmire.pdb
 C:\Users\kuba-bootable\Documents\GitHub\Scripts\Debug\anubingus.exe
 C:\Users\kuba-bootable\Documents\GitHub\Scripts\Debug\anubingus.pdb
 C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Debug\anubingus.exe
-C:\Users\kuba-bootable\Documents\GitHub\Scripts\Anubingus-scripts\Debug\anubingus.pdb

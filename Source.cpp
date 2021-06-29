@@ -27,8 +27,7 @@ int randomizer = 0;
 float playerfov = 90.0f;
 float playersens = 1.0f;
 bool enabled = true;
-std::string configPath = "C:/Users/kuba-bootable/Desktop/Rust/Rust2/Rust/cfg/client.cfg";
-std::string testing;
+std::string configPath = "C:/Program Files (x86)/Steam/steamapps/common/Rust/cfg/client.cfg";
 
 //Opens the file directory and sets configPath to user selection.
 int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR pCmdLine, int nCmdShow)
@@ -99,7 +98,7 @@ void ReadSetting() {
 	std::string sensString;
 
 	if (infline.is_open()) {
-		for (int i = 0; i < 70; i++)
+		for (int i = 0; i < 71; i++)
 		{
 			std::getline(infline, fovString);
 			//std::getline(infline, testing);
@@ -108,7 +107,7 @@ void ReadSetting() {
 		std::string::size_type const n = s.find('"');
 		fovString = RemoveChars(s.substr(n), "\"");
 
-		for(int i = 0; i < 22; i++){
+		for(int i = 0; i < 27; i++){
 			std::getline(infline, sensString);
 		}
 		std::string const st = sensString;
@@ -124,14 +123,15 @@ void ReadSetting() {
 	}
 }
 
-void DrawGui()
+void DrawCLI()
 {
 	system("cls");
 	system("color 3");
 	_setmode(_fileno(stdout), 0x20000);
 	wprintf(L"ANUB!NGUS#8780\n");
 	_setmode(_fileno(stdout), _O_TEXT);
-
+	
+	std::cout << FG_GREEN << "Reload reload setting: F5" << std::endl;
 	std::cout << FG_CYAN << "Switch weapons: PGUP / PGDN / FN 2 - 8" << std::endl;
 	std::cout << FG_CYAN << "Switch scope: LEFT ARROW / RIGHT ARROW" << std::endl;
 	std::cout << FG_CYAN << "Switch barrel: DOWN ARROW / UP ARROW" << std::endl;
@@ -210,11 +210,10 @@ void DrawGui()
 
 	std::cout << "FOV: " << playerfov << std::endl;
 	std::cout << "SENS: " << playersens << std::endl;
-	std::cout << FG_RED << testing << std::endl;
 
-	std::cout << FG_CYAN << "Update Logs (v1.2): ";
+	std::cout << FG_CYAN << "Update Logs (v1.3): ";
 	std::cout << std::endl;
-	std::cout << FG_CYAN << "Improved application performance.";
+	std::cout << FG_CYAN << "Added automatic setting reader";
 
 }
 
@@ -293,7 +292,6 @@ int main()
 	//Reading setting of the client once
 	ReadSetting();
 
-
 	int count = 0;
 	SetConsoleTitle(L"!ANUBINGUS! | ANUB!NGUS#8780");
 	HANDLE handle = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -319,25 +317,25 @@ int main()
 
 
 	SetWindowLong(hwnd, GWL_STYLE, GetWindowLong(hwnd, GWL_STYLE));
-	DrawGui();
+	DrawCLI();
 	
 	while (true)
 	{
 
 		if (GetKeyState(VK_F9) & 0x8000)
 		{
-			if (currentwep != 7)
-			{
-				currentwep = 7;
-				DrawGui();
-			}
+		if (currentwep != 7)
+		{
+			currentwep = 7;
+			DrawCLI();
+		}
 		}
 		if (GetKeyState(VK_F2) & 0x8000)
 		{
-			if(currentwep != 0)
+			if (currentwep != 0)
 			{
 				currentwep = 0;
-				DrawGui();
+				DrawCLI();
 			}
 		}
 		if (GetKeyState(VK_F3) & 0x8000)
@@ -345,7 +343,7 @@ int main()
 			if (currentwep != 1)
 			{
 				currentwep = 1;
-				DrawGui();
+				DrawCLI();
 			}
 		}
 		if (GetKeyState(VK_F4) & 0x8000)
@@ -353,7 +351,7 @@ int main()
 			if (currentwep != 2)
 			{
 				currentwep = 2;
-				DrawGui();
+				DrawCLI();
 			}
 		}
 		if (GetKeyState(VK_F5) & 0x8000)
@@ -361,7 +359,7 @@ int main()
 			if (currentwep != 3)
 			{
 				currentwep = 3;
-				DrawGui();
+				DrawCLI();
 			}
 		}
 		if (GetKeyState(VK_F6) & 0x8000)
@@ -369,7 +367,7 @@ int main()
 			if (currentwep != 4)
 			{
 				currentwep = 4;
-				DrawGui();
+				DrawCLI();
 			}
 		}
 		if (GetKeyState(VK_F7) & 0x8000)
@@ -377,7 +375,7 @@ int main()
 			if (currentwep != 5)
 			{
 				currentwep = 5;
-				DrawGui();
+				DrawCLI();
 			}
 		}
 		if (GetKeyState(VK_F8) & 0x8000)
@@ -385,45 +383,54 @@ int main()
 			if (currentwep != 6)
 			{
 				currentwep = 6;
-				DrawGui();
+				DrawCLI();
 			}
 		}
 		if (GetAsyncKeyState(VK_INSERT) == -32767)
 		{
 			enabled = !enabled;
-			DrawGui();
+			DrawCLI();
 		}
 
 		if (GetAsyncKeyState(VK_LEFT) == -32767)
 		{
-			if (scope != 0){ scope--; } else { scope = 4; }
-			DrawGui();
+			if (scope != 0) { scope--; }
+			else { scope = 4; }
+			DrawCLI();
 		}
 
-		if (GetAsyncKeyState(VK_RIGHT) == -32767) 
+		if (GetAsyncKeyState(VK_RIGHT) == -32767)
 		{
-			if (scope != 4) { scope++; } else { scope = 0; }
-			DrawGui();
+			if (scope != 4) { scope++; }
+			else { scope = 0; }
+			DrawCLI();
 		}
 
 		if (GetAsyncKeyState(VK_UP) == -32767) {
-			if (barrel != 2) { barrel++; } else { barrel = 0; }
-			DrawGui();
+			if (barrel != 2) { barrel++; }
+			else { barrel = 0; }
+			DrawCLI();
 		}
 
 		if (GetAsyncKeyState(VK_DOWN) == -32767) {
-			if (barrel != 0) { barrel--; } else { barrel = 2; }
-			DrawGui();
+			if (barrel != 0) { barrel--; }
+			else { barrel = 2; }
+			DrawCLI();
 		}
 
 		if (GetAsyncKeyState(VK_NEXT) == -32767) {
-			if (currentwep != 6) { currentwep++; }else { currentwep = 0; }
-			DrawGui();
+			if (currentwep != 6) { currentwep++; }
+			else { currentwep = 0; }
+			DrawCLI();
 		}
 
 		if (GetAsyncKeyState(VK_PRIOR) == -32767) {
-			if (currentwep != 0) { currentwep--; }else { currentwep = 6; }
-			DrawGui();
+			if (currentwep != 0) { currentwep--; }
+			else { currentwep = 6; }
+			DrawCLI();
+		}
+		if (GetAsyncKeyState(VK_F5) & 0x8000) {
+			ReadSetting();
 		}
 
 
